@@ -1,0 +1,591 @@
+/*Home CSS*/
+header {
+    background-image: url("../images/bannerlite.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+    color: purple;
+    font-size: 5em;
+    font-weight: 500;
+    line-height: 400%;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+ul {
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.1s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 40px;
+}
+
+nav a:hover {
+    font-size: medium;
+    transition: 0.1s;
+    text-shadow: 3px 3px 15px white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: #B67352;
+    text-align: center;
+    height: 50px;
+    padding: 2px 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+main {
+    background-color: #8CB9BD;
+    padding: 30px 0;
+    overflow: auto;
+    border-radius: 18px;
+    margin: 20px 0;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+#desc p {
+    margin-bottom: 30px;
+}
+
+
+#desc {
+    background-color: #ECB159;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 40px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px gray, -5px -5px 15px gray;
+}
+
+#desc h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+#desc p {
+    font-size: large;
+}
+
+#rideheading {
+    margin: 30px 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 5px 5px 4px gray;
+}
+
+#ride {
+    float: left;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.7), -4px -4px 15px rgba(128, 128, 128, 0.7);
+    border-radius: 20px;
+}
+
+#ride img {
+    float: none;
+    width: 250px;
+    height: 210px;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+#ride img:hover {
+    width: 300px;
+    height: 260px;
+    transition: 0.2s;
+}
+
+#ride h3 {
+    font-family: "Sofia", sans-serif;
+}
+
+#customerheading {
+    clear: left;
+    margin: 30px 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 5px 5px 4px gray;
+}
+
+#customer {
+    float: left;
+    width: 450px;
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+    margin: 0 142px;
+    box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.7), -4px -4px 15px rgba(128, 128, 128, 0.7);
+    border-radius: 20px;
+}
+
+#customer h4 {
+    font-family: Helvetica, sans-serif;
+}
+
+#customer img {
+    float: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 55px;
+    object-fit: cover;
+    border: 3px solid mediumspringgreen;
+    transition: 0.2s;
+    box-shadow: 4px 3px 20px black;
+}
+
+#customer img:hover {
+    width: 100px;
+    height: 100px;
+    transition: 0.2s;
+}
+
+footer {
+    clear: left;
+    background-color: #ECB159;
+    border-radius: 18px;
+    margin-top: 8px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+.top {
+    margin: 0 5%;
+}
+
+.content {
+    float: left;
+    font-family: Helvetica, sans-serif;
+    width: 25%;
+    padding: 12px 0;
+}
+
+.bottom {
+    clear: left;
+    background-color: #B67352;
+    font-size: medium;
+    padding: 1px 0;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    text-align: center;
+}
+
+hr {
+    display: none;
+}
+
+/*Ticket CSS*/
+#ticketheader {
+    background-image: url("../images/ticketbannerlite.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+#ticketmain {
+    background-color: #8CB9BD;
+    padding: 30px 0;
+    overflow: auto;
+    border-radius: 18px;
+    margin: 20px 0;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+#ticketgrid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0px;
+}
+
+#ticketgrid-container h2 {
+    text-align: center;
+    text-shadow: 3px 3px 5px gray;
+}
+
+#tickettable {
+    border-radius: 18px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+    box-shadow: 5px 5px 15px gray, -5px -5px 15px gray;
+}
+
+th {
+    background-color: #B67352;
+}
+
+#tickettable tr:first-child th:first-child {
+    border-top-left-radius: 18px;
+}
+
+#tickettable tr:first-child th:last-child {
+    border-top-right-radius: 18px;
+}
+
+#tickettable,
+th,
+td {
+
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n+3) {
+    background-color: lightgray;
+}
+
+tr:nth-child(2n+2) {
+    background-color: darkgray;
+}
+
+#tickettable tr:last-child td:last-child {
+    background-color: #B67352;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+#ticketform {
+    background-color: #ECB159;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px gray, -5px -5px 15px gray;
+}
+
+#formtop {
+    background-color: #B67352;
+    padding: 1px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+#formbottom {
+    padding: 10px;
+}
+
+#ticketh2,
+#ticketform legend {
+    text-align: center;
+}
+
+#ticketform label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
+#ticketform input[type=text],
+[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#ticketform span {
+    color: red;
+}
+
+#ticketform fieldset {
+    border-radius: 18px;
+}
+
+#ticketform input[type=submit] {
+    width: 140px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 8px;
+}
+
+#ticketform input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#outerperson {
+    display: flex;
+}
+
+#person {
+    margin-right: auto;
+    width: 40%;
+}
+
+#ticketform #amount {
+    width: 40%;
+}
+
+/*Waterpark CSS*/
+#waterparkheader {
+    background-image: url("../images/waterparkbannerlite.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#waterparkmain {
+    background-color: #8CB9BD;
+    padding: 30px 0;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+#rideheading {
+    margin: 30px 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 5px 5px 4px gray;
+}
+
+#ride-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+
+#ride-container #waterparkride {
+    background-color: white;
+    width: 258px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.7), -4px -4px 15px rgba(128, 128, 128, 0.7);
+    border-radius: 20px;
+}
+
+#ride-container #waterparkride img {
+    width: 200px;
+    height: 160px;
+    text-align: center;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+#ride-container #waterparkride img:hover {
+    width: 250px;
+    height: 210px;
+    transition: 0.2s;
+}
+
+#ride-container #waterparkride h3 {
+    font-family: "Sofia", sans-serif;
+}
+
+/*About Us CSS*/
+#aboutheader {
+    background-image: url("../images/aboutusbannerlite.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+#aboutmain {
+    background-color: #8CB9BD;
+    padding: 30px 20px;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+#aboutmain #accordion {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Home Mobile CSS*/
+@media only screen and (max-width: 768px) {
+    nav {
+        width: auto;
+        height: auto;
+        padding: 0.1px;
+    }
+
+    hr {
+        display: block;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: block;
+        padding: 2px;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        width: auto;
+        padding-bottom: 0;
+    }
+
+    #desc {
+        width: auto;
+        width: 80%;
+        padding: 1px 25px;
+    }
+
+    #desc h2 {
+        font-size: medium;
+    }
+
+    #desc p {
+        font-size: medium;
+    }
+
+    #ride {
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ride img {
+        float: left;
+        width: 150px;
+        height: 130px;
+        border-radius: 30px;
+        transition: 0.2s;
+    }
+
+    #ride img:hover {
+        width: 160px;
+        height: 140px;
+    }
+
+    #customer {
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #customer img {
+        float: left;
+        width: 60px;
+        height: 60px;
+    }
+
+    #customer img:hover {
+        width: 70px;
+        height: 70px;
+    }
+
+    .top {
+        margin-left: 4%;
+        margin-right: 0;
+    }
+
+    .content {
+        float: left;
+        width: 50%;
+        font-size: small;
+        padding: 0;
+    }
+
+    .bottom {
+        font-size: small;
+    }
+
+    /*Ticket Mobile CSS*/
+
+    #ticketgrid-container {
+        grid-gap: 25px;
+    }
+
+    #table-container {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #ticketform {
+        grid-column-start: 1;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 18px;
+        box-shadow: 5px 5px 15px gray, -5px -5px 15px gray;
+    }
+
+    /*Waterpark Mobile CSS*/
+
+    #ride-container #waterparkride {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        width: 70%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 150px auto;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ride-container #waterparkride img {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 150px;
+        height: 130px;
+        text-align: center;
+        border-radius: 30px;
+        transition: 0.2s;
+    }
+
+    #ride-container #waterparkride img:hover {
+        width: 160px;
+        height: 140px;
+        transition: 0.2s;
+    }
+}

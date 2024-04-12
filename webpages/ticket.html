@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wonderland</title>
+    <link rel="icon" href="../images/logo.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/home.css">
+    <!--W3School->Font->Google font library-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <hr />
+            <li><a class="active" href="ticket.html">Tickets</a></li>
+            <hr />
+            <li><a href="waterpark.html">Water Park</a></li>
+            <hr />
+            <li><a href="about us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <header id="ticketheader">
+        <h1 class="font-effect-shadow-multiple">Tickets</h1>
+    </header>
+    <main id="ticketmain">
+        <div id="ticketgrid-container">
+            <div id="table-container">
+                <h2>Price Table</h2>
+                <table id="tickettable">
+                    <tr>
+                        <th>Park/zone</th>
+                        <th>Adult<br />(price in CAD)</th>
+                        <th>Children<br />(price in CAD)</th>
+                    </tr>
+                    <tr>
+                        <td>Water Park</td>
+                        <td>200</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Theme Park</td>
+                        <td>150</td>
+                        <td>75</td>
+                    </tr>
+                    <tr>
+                        <td>Game Zone</td>
+                        <td>100</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Tickets are solding fast, grab yours now!<br />Terms and Condition Apply!</td>
+                    </tr>
+                </table>
+            </div>
+            <form id="ticketform" method="get">
+                <div id="formtop">
+                    <h2 id="ticketh2">Booking Form</h2>
+                </div>
+                <div id="formbottom">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div>
+                            <label>Full Name:</label>
+                            <input type="text" placeholder="Your Name" name="name" id="name">
+                            <span class="alert" id="nameAlert">Name is required.</span>
+                        </div>
+                        <div>
+                            <label>Email:</label>
+                            <input type="text" placeholder="Your Email : example@gmail.com" name="email" id="email">
+                            <span class="alert" id="emailAlert">Must be a vaild email address.</span>
+                        </div>
+                        <div>
+                            <label>Phone:</label>
+                            <input type="text" placeholder="Your Phone" name="phone" id="phone">
+                            <span class="alert" id="phoneAlert">Must be 10 digit valid phone number.</span>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Booking Information</legend>
+                        <div>
+                            <label>Booking Date:</label>
+                            <input type="text" placeholder="MM/DD/YYYY" name="date" id="date">
+                            <span class="alert" id="dateAlert">Valid date is required.</span>
+                        </div>
+                        <div>
+                            <label>Select Park:</label>
+                            <select id="park" name="park">
+                                <option value="200">Water Park</option>
+                                <option value="150">Theme Park</option>
+                                <option value="100">Game Zone</option>
+                            </select>
+                        </div>
+                        <div id="outerperson">
+                            <div id="person">
+                                <label>Adults:</label><br>
+                                <select id="adult" name="adult">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div id="person">
+                                <label>Children:</label><br>
+                                <select id="children" name="children">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label>Total Amount:</label><br>
+                            <input type="text" name="amount" id="amount" disabled>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <br>
+                        <input type="submit" id="submitRequest" value="Book Ticket">
+                        <input type="submit" id="clearForm" value="Clear Form">
+                    </div>
+                    <p>Terms & Condition Apply!</p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="top">
+            <div class="content">
+                <h3>Wonderland</h3>
+                <p>
+                    One stop solution for your vacation!
+                </p>
+            </div>
+            <div class="content">
+                <h4>Contact Information</h4>
+                <span>205 Humber College Blvd.</span><br>
+                <span>&#9993; <a href="mailto:Wonderland@humber.ca">wonderland@humber.ca</a></span>
+            </div>
+            <div class="content">
+                <h4>Quick Links</h4>
+                <a href="home.html">Home</a><br>
+                <a href="ticket.html">Tickets</a><br>
+                <a href="waterpark.html">Water Park</a><br>
+                <a href="about us.html">About Us</a>
+            </div>
+            <div class="content">
+                <h4>Connect with Us</h4>
+                <a target="_blank" href="https://www.instagram.com/">Instagram</a><br>
+                <a target="_blank" href="https://twitter.com/?lang">Twitter</a><br>
+                <a target="_blank" href="https://www.facebook.com/">Facebook</a><br>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Copyright © 2024-2025 Wonderland Company. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
