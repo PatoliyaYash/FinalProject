@@ -442,7 +442,17 @@ a {
 
 #aboutmain #accordion {
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto 0;
+}
+
+#accordion h3 {
+    background-color: #B67352;
+    border-radius: 10px;
+}
+
+#accordion div {
+    background-color: #ECB159;
+    border-radius: 10px;
 }
 
 /*Home Mobile CSS*/
