@@ -441,6 +441,13 @@ a {
     box-shadow: 3px 3px 15px darkgray;
 }
 
+#aboutheading {
+    margin: 30px 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 5px 5px 4px gray;
+}
+
 #aboutmain #accordion {
     width: 80%;
     margin: 20px auto 0;
@@ -472,6 +479,40 @@ a {
     border-radius: 18px;
     margin-top: 20px;
     box-shadow: 3px 3px 15px darkgray;
+}
+
+#eventheading {
+    margin: 30px 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 5px 5px 4px gray;
+}
+
+#flexbox-1 {
+    display: flex;
+    background-color: white;
+    border-radius: 18px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.7), -4px -4px 15px rgba(128, 128, 128, 0.7);
+}
+
+#flexbox-1 p{
+    font-size: large;
+    padding: 10px 30px;
+}
+
+#flexbox-1 h3{
+    font-size: larger;
+    text-align: center;
+}
+
+#flexbox-1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 18px;
+    box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.7), -4px -4px 15px rgba(128, 128, 128, 0.7);
 }
 
 /*Home Mobile CSS*/
@@ -617,5 +658,24 @@ a {
         width: 160px;
         height: 140px;
         transition: 0.2s;
+    }
+
+    /*Event Mobile CSS*/
+    #flexbox-1 {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 18px;
+        width: 550px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.7), -4px -4px 15px rgba(128, 128, 128, 0.7);
+    }
+
+    #flexbox-1 img{
+        width: 550px;
+        height: 300px;
+        border-radius: 18px;
+        box-shadow: 4px 4px 15px rgba(128, 128, 128, 0.7), -4px -4px 15px rgba(128, 128, 128, 0.7);
     }
 }
