@@ -192,6 +192,7 @@ footer {
     font-family: Helvetica, sans-serif;
     width: 25%;
     padding: 12px 0;
+    margin-bottom: 0;
 }
 
 .bottom {
@@ -455,6 +456,24 @@ a {
     border-radius: 10px;
 }
 
+/*Event CSS*/
+#eventheader {
+    background-image: url("../images/eventbannerlite.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
+#eventmain {
+    background-color: #8CB9BD;
+    padding: 30px 20px;
+    border-radius: 18px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px darkgray;
+}
+
 /*Home Mobile CSS*/
 @media only screen and (max-width: 768px) {
     nav {
@@ -544,6 +563,7 @@ a {
         width: 50%;
         font-size: small;
         padding: 0;
+        margin-bottom: 10px;
     }
 
     .bottom {
