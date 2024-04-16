@@ -237,6 +237,7 @@ hr {
 #ticketgrid-container h2 {
     text-align: center;
     text-shadow: 3px 3px 5px gray;
+    
 }
 
 #tickettable {
@@ -285,6 +286,7 @@ tr:nth-child(2n+2) {
     background-color: #ECB159;
     width: 60%;
     margin: 0 auto;
+    margin-top: 30px;
     border-radius: 18px;
     box-shadow: 5px 5px 15px gray, -5px -5px 15px gray;
 }
